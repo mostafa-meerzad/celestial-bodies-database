@@ -36,3 +36,14 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 22. All columns named name should be of type VARCHAR
 23. Each primary key column should follow the naming convention table_name_id. For example, the moon table should have a primary key column named moon_id
 24. Each foreign key column should have the same name as the column it is referencing
+
+## Commands Executed
+
+1. `CREATE TABLE galaxy(name VARCHAR(60) NOT NULL, discovery_year DATE,  age_in_millions_of_years NUMERIC(4,4), description TEXT, number_of_stars INT,numbe
+r_of_planets INT,  is_older_than_Milky_way BOOLEAN, is_bigger_than_milky_way BOOLEAN, galaxy_id SERIAL PRIMARY KEY);`
+2. 
+<!-- 1. `CREATE TABLE star(name VARCHAR(60) NOT NULL UNIQUE, age_in_millions_of_years NUMERIC(4, 4), galaxy VARCHAR(60) NOT NULL,  distance_from_earth_in_light_years INT, description VARCHAR(1024) NOT NULL, star_id SERIAL PRIMARY KEY)`
+2. `CREATE TABLE galaxy(name VARCHAR(60) NOT NULL UNIQUE, age_in_millions_of_years NUMERIC(4, 4), type VARCHAR(100) NOT NULL , size_in_light_years INT,  distance_from_earth_in_light_years INT, description VARCHAR(1024) NOT NULL, galaxy_id SERIAL PRIMARY KEY);`
+3. `CREATE TABLE galaxy(name VARCHAR(60) NOT NULL UNIQUE, age_in_millions_of_years NUMERIC(4, 4), type VARCHAR(100) NOT NULL , size_in_light_years INT,  distance_from_earth_in_light_years INT, description VARCHAR(1024) NOT NULL, galaxy_id SERIAL PRIMARY KEY);`
+4.  -->
+
